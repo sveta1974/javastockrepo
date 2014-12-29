@@ -19,4 +19,4 @@ public class SvetaProjectServlet extends HttpServlet {
 	String resultStr = new String("<h1>Result of "+var1+"*"+var2+"="+result+"</h1>");		
 	resp.getWriter().println(resultStr);
 	}
-}
+}		

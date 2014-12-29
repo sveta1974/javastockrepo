@@ -4,14 +4,29 @@ xmlns="http://java.sun.com/xml/ns/javaee"
 xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
 xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
 http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+
 	<servlet>
-		<servlet-name>SvetaProject</servlet-name>
-		<servlet-class>com.myorg.javacourse.SvetaProjectServlet</servlet-class>
-	</servlet>
+	    <servlet-name>SvetaProject</servlet-name>
+	    <servlet-class>il.ac.mta.MyNewServlet</servlet-class>
+     </servlet>
+    
 	<servlet-mapping>
 		<servlet-name>SvetaProject</servlet-name>
 		<url-pattern>/svetaproject</url-pattern>
 	</servlet-mapping>
+	
+	<servlet>
+	    <servlet-name>MyNewServlet</servlet-name>
+	    <servlet-class>il.ac.mta.MyNewServlet</servlet-class>
+     </servlet>
+		
+
+	    
+	<servlet-mapping>
+	<servlet-name>MyNewServlet</servlet-name>
+	<url-pattern>/mynewservlet</url-pattern>
+	</servlet-mapping>
+	    
 	<welcome-file-list>
 		<welcome-file>index.html</welcome-file>
 	</welcome-file-list>
