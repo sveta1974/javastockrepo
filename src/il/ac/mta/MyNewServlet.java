@@ -21,7 +21,6 @@ protected void doGet(HttpServletRequest req,HttpServletResponse resp)
 	//resp.getWriter().println("Hello my new Servlet");
 	int var1 = 50;
     double radius = (var1*var1) * Math.PI;
-	int angleB = 30;
 	int hypotenuse = 50;
 	int degrees=30;
 	

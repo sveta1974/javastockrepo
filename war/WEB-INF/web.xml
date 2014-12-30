@@ -7,7 +7,7 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 
 	<servlet>
 	    <servlet-name>SvetaProject</servlet-name>
-	    <servlet-class>il.ac.mta.MyNewServlet</servlet-class>
+	    <servlet-class>com.myorg.SvetaProject</servlet-class>
      </servlet>
     
 	<servlet-mapping>
